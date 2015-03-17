@@ -1,0 +1,16 @@
+{
+  "name": "betterwiki",
+  "title": "BetterWiki",
+  "id": "jid1-9cnWBmnIz07Pog",
+  "description": "View wikipedia pages side-by-side by using the shift key while clicking links.",
+  "author": "Ephi Blanshey",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "preferences": [{
+		"name": "articlesPerPage",
+		"title": "Visible Articles",
+		"description": "How many articles should be visible per page without horizontal scrolling?",
+		"type": "integer",
+		"value": 3
+	}]
+}

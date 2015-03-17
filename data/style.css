@@ -1,0 +1,45 @@
+.newwiki-innerContainer {
+	box-sizing: border-box;
+}
+.newwiki-page {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	white-space: normal;
+	vertical-align: top;
+	z-index: 9999;
+	overflow-x: auto;
+	padding: 0 5px;
+}
+.newwiki-page:first-child {
+	padding-left: 0;
+}
+.newwiki-page:last-child {
+	padding-right: 0;
+}
+.newwiki-outerButtonContainer {
+	position: absolute;
+	top: 0;
+	right:0;
+	z-index: 99999999;
+}
+.newwiki-innerButtonContainer {
+ 	white-space: nowrap;
+ 	top: 0;
+	text-align: right;
+}
+.newwiki-button {
+	display: inline;
+	border: 0;
+	padding: 5px;
+	z-index: 99999999;
+}
+.newwiki-closeButton {
+	cursor: pointer;
+	background: #000;
+	color: #FFF;
+}
+.newwiki-currentButton {
+	background: yellow;
+	color: #000;
+}
